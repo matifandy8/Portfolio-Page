@@ -46,7 +46,7 @@ p {
   padding: 10px 30px;
   color: white;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid rgb(220, 190, 20);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -56,7 +56,7 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: crimson;
+  background-color: rgb(220, 190, 20);
 }
 .brand h1 {
   font-size: 3rem;
@@ -64,7 +64,7 @@ p {
   color: white;
 }
 .brand h1 span {
-  color: crimson;
+  color: rgb(220, 190, 20);
 }
 /* Header SECTION */
 
@@ -78,7 +78,7 @@ p {
 }
 #header .header {
   min-height: 8vh;
-  background-color: rgba(31, 30, 30, 0.24);
+  background-color: black;
 }
 #header .nav-bar {
   display: flex;
@@ -92,7 +92,7 @@ p {
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: rgb(31, 30, 30);
+  background-color: black;
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -122,7 +122,7 @@ p {
   transition: 0.2s;
 }
 #header .nav-list ul a:hover {
-  color: crimson;
+  color: rgb(220, 190, 20);
 }
 #header .hamburger {
   height: 60px;
@@ -182,7 +182,7 @@ p {
 
 /* HERO SECTION */
 #hero {
-  background-image: url(https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -219,7 +219,12 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: crimson;
+  background-color: rgb(220, 190, 20);
+}
+.name {
+  background-color: rgba(153, 133, 18, 0.37);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /* END FINAL HERO SECTION */
@@ -258,7 +263,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #111418 0%, #141618 100%);
   padding: 30px;
   border-radius: 10px;
   margin: 10px 5px;
@@ -274,7 +279,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg #171e25 0%, #485533 100%);
+  background-image: linear-gradient(60deg, #111418 0%, #141618 100%);
   opacity: 1.8;
   z-index: -1;
 }
@@ -329,7 +334,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #111418 0%, #141618 100%);
   color: white;
 }
 #projects .project-info h1 {
@@ -370,7 +375,7 @@ p {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(220, 190, 20);
   padding: 10px;
   width: 80px;
 }
@@ -423,7 +428,7 @@ p {
 /* FOOTER */
 
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #111418 0%, #141618 100%);
 }
 #footer .footer {
   min-height: 200px;
@@ -511,7 +516,7 @@ p {
     top: 34px;
     height: 90%;
     width: 90%;
-    border-radius: 10px solid crimson;
+    border-radius: 10px solid rgb(220, 190, 20);
   }
   #about .col-right {
     text-align: left;
