@@ -5,7 +5,7 @@
 }
 html {
   font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
   text-decoration: none;
@@ -208,9 +208,10 @@ p {
 #hero h1 {
   display: block;
   width: fit-content;
-  font-size: 4rem;
+  font-size: 2rem;
   position: relative;
   color: white;
+  font-weight: 100;
 }
 
 #hero h1 span {
@@ -222,9 +223,9 @@ p {
   background-color: rgb(220, 190, 20);
 }
 .name {
-  background-color: rgba(153, 133, 18, 0.37);
-  border-radius: 10px;
-  padding: 10px;
+  background-color: rgba(206, 178, 18, 0.37);
+  border-radius: 25px;
+  padding: 15px;
 }
 
 /* END FINAL HERO SECTION */
@@ -372,12 +373,16 @@ p {
 }
 
 #projects .project-info .demo {
+  margin: 15px;
   color: white;
   text-decoration: none;
   font-size: 20px;
   border: 2px solid rgb(220, 190, 20);
-  padding: 10px;
+  padding: 13px;
   width: 80px;
+}
+#projects .project-info .demo:hover {
+  background-color: rgb(220, 190, 20);
 }
 /* END FINAL Projects SECTION */
 
@@ -479,7 +484,7 @@ p {
 
   /* hero*/
   #hero h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   #skills .skill-botton .skill-item {
     flex-basis: 45%;
